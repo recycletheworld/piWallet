@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `wallet`
+-- Database: `subwallet`
 --
 
 -- --------------------------------------------------------
@@ -45,7 +45,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`id`, `date`, `ip`, `username`, `password`, `admin`, `locked`) VALUES
-(1, '', 'localhost', 'piWallet', '4cb9c8a8048fd02294477fcb1a41191a', '1', NULL);
+(1, '', 'localhost', 'nur1labs', '4cb9c8a8048fd02294477fcb1a41191a', '1', NULL);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
